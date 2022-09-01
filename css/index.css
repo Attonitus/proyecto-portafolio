@@ -1,0 +1,43 @@
+@import "./button.css";
+@import "./button-icon.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./divi.css";
+@import "./testimonio.css";
+@import "./proyect.css";
+@import "./social.css";
+@import "./footer.css";
+@import "./form.css";
+@import "./title.css";
+
+
+
+:root {
+    --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+    --fontBase: 'Poppins', sans-serif;
+    --headline1: bold 6rem/9.5rem var(--fontBase);
+    --headline2: bold 3.75rem/6rem var(--fontBase);
+    --headline3: bold 3rem/4.875rem var(--fontBase);
+    --headline4: bold 2rem/3.5rem var(--fontBase);
+    --headline5: bold 1.5rem/2.375rem var(--fontBase);
+    --body1: 1rem/1.625rem var(--fontBase);
+    --body2: .875rem/1.375rem var(--fontBase);
+    --button: bold .875rem/1.375rem var(--fontBase);
+    --caption: .75rem/1.1rem var(--fontBase);
+    --purple: #310A90;
+    --green: #42E2B8;
+    --white: white;
+
+}
+
+body {
+    background: var(--gradient);
+    min-block-size: 100vh;
+    font: var(--body1);
+    color: var(--purple);
+    scroll-behavior: smooth;
+    margin: 0;
+}
+

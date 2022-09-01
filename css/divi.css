@@ -1,0 +1,28 @@
+.divi-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.divi-texto p{
+    font: var(--headline5);
+    font-weight: 400;
+    margin-block-start: 3.375rem;
+}
+
+.divi-texto h4 {
+    font: var(--headline5);
+    margin: 0;
+}
+
+.divi-texto img {
+    margin-block-start: 1.5rem;
+}
+@media screen and (min-width: 1024px) {
+    .divi-texto p{
+        margin-block-start: 11.25rem;
+    }
+}
