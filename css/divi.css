@@ -1,3 +1,7 @@
+.divi {
+    margin-block-start: 4rem;
+}
+
 .divi-texto {
     display: flex;
     flex-direction: column;
@@ -7,7 +11,7 @@
 
 }
 
-.divi-texto p{
+.divi-texto p {
     font: var(--headline5);
     font-weight: 400;
     margin-block-start: 3.375rem;
@@ -21,8 +25,9 @@
 .divi-texto img {
     margin-block-start: 1.5rem;
 }
+
 @media screen and (min-width: 1024px) {
-    .divi-texto p{
+    .divi-texto p {
         margin-block-start: 11.25rem;
     }
 }
